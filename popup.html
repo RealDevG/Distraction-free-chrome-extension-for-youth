@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stay Focused</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Press+Start+2P&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 380px;
+        height: 200px;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: azure;
+      }
+      #quote {
+        padding: 20px;
+        font-family: "Quicksand", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size: x-large;
+        font-style:normal;
+      }
+      #author{
+        position: absolute;
+        bottom: 60px;
+        right: 20px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="quote"></div>
+    <div id="author"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

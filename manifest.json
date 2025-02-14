@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "D-Terminator",
+  "version": "1.0.0",
+  "description": "Stay Motivated and distraction free",
+  "permission": ["storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.reddit.com/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["time.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
