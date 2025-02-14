@@ -1,2 +1,2 @@
 # Distraction-free-chrome-extension-for-youth
-This is a chrome extension that keeps everybody motivated and saves time for productivity
+D-Terminator 1.0 is a chrome extension that helps to maintain one's goal fixed. Everytime a user opens his browser, he views a random motivational quote. Besides, it keeps track of the time spent in each of the websites by a user. Whenever the user returns back it displays the time spent by the user on his/her last visit. This way the user realises the time spent by him in an alarm fashion everyday. The time resets for each day. It also works as a website blocker.
